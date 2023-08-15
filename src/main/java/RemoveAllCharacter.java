@@ -15,7 +15,6 @@ public class RemoveAllCharacter {
     public String removeAll(String str, String ch){
 
         String newStr = str.replaceAll(ch, "");
-      
         return newStr;
     }
 }
